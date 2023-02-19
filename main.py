@@ -29,7 +29,18 @@ def find_mismatch(text):
 
 
 def main():
-    text = input()
+    testing = input()
+
+    if testing == "F":
+        # path = './test/0'
+        # path = './test/5'
+        # with open(path, 'r') as f:
+            # text = f.read()
+        text = input()
+    elif testing == "I":
+        text = input()
+    else: return
+
     mismatch = find_mismatch(text)
     print(mismatch)
     # Printing answer, write your code here
