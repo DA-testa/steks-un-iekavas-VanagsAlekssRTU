@@ -43,7 +43,9 @@ def main():
             text = f.read()
         mismatch = find_mismatch(text)
         print(mismatch)
-    else: return
+    else: 
+        print("Invalid input")
+        main()
 
 
 if __name__ == "__main__":
