@@ -30,7 +30,7 @@ def find_mismatch(text):
 
 def main():
     testing = input()
-    testing.upper()
+    testing = testing.upper()
     text = input()
     mismatch = find_mismatch(text)
 
