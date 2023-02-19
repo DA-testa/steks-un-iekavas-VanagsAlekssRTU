@@ -30,16 +30,17 @@ def find_mismatch(text):
 
 def main():
     testing = input()
+    testing.upper()
     text = input()
     mismatch = find_mismatch(text)
 
-    if testing == "F":
+    if testing == "I":
+        print(mismatch)
+    elif testing == "F":
         # path = './test/0'
         # path = './test/5'
         # with open(path, 'r') as f:
             # text = f.read()
-        print(mismatch)
-    elif testing == "I":
         print(mismatch)
     else: return
     
