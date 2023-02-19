@@ -45,6 +45,7 @@ def main():
         print(mismatch)
     else: 
         print("Invalid input")
+        print(testing)
         main()
 
 
