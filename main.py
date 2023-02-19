@@ -36,15 +36,15 @@ def main():
 
     if testing == "I":
         print(mismatch)
-    elif testing == "F":
-        # path = './test/0'
-        # path = './test/5'
-        # with open(path, 'r') as f:
-            # text = f.read()
+    else:
         print(mismatch)
-    else: return
-    
-    # Printing answer, write your code here
+    # elif testing == "F":
+    #     # path = './test/0'
+    #     path = './test/5'
+    #     with open(path, 'r') as f:
+    #         text = f.read()
+    #     print(mismatch)
+    # else: return
 
 
 if __name__ == "__main__":
