@@ -29,8 +29,7 @@ def find_mismatch(text):
 
 
 def main():
-    testing = input()
-    testing = testing.upper()
+    testing = input().upper()
     
     if testing == "I":
         text = input()
@@ -45,7 +44,6 @@ def main():
         print(mismatch)
     else: 
         print("Invalid input")
-        print(testing)
         main()
 
 
