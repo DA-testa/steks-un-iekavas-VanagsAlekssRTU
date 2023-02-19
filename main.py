@@ -31,20 +31,19 @@ def find_mismatch(text):
 def main():
     testing = input()
     testing = testing.upper()
-    text = input()
-    mismatch = find_mismatch(text)
-
+    
     if testing == "I":
+        text = input()
+        mismatch = find_mismatch(text)
         print(mismatch)
-    else:
+    elif testing == "F":
+        # path example -> ./test/5
+        path = input()
+        with open(path, 'r') as f:
+            text = f.read()
+        mismatch = find_mismatch(text)
         print(mismatch)
-    # elif testing == "F":
-    #     # path = './test/0'
-    #     path = './test/5'
-    #     with open(path, 'r') as f:
-    #         text = f.read()
-    #     print(mismatch)
-    # else: return
+    else: return
 
 
 if __name__ == "__main__":
